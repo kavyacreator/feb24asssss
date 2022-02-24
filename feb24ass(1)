@@ -1,0 +1,18 @@
+n=int(input())
+l=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+c=0
+l=0
+for i in l:
+    for j in range(2,i):
+        if i%j==0:
+            c=c
+            break;
+        else:
+            c=c+1
+            break;
+print( 'total is:',c)
+
+
